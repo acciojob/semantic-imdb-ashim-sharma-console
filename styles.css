@@ -1,2 +1,31 @@
 
 /* Your CSS Code here. */
+ body {
+      font-family: 'Georgia', serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, nav, section, aside, footer {
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #6A1B9A;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    blockquote {
+      font-style: italic;
+      color: #555;
+    }
